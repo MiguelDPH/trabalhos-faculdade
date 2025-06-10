@@ -43,8 +43,6 @@ public class MainExercicio3_2 {
 
         } catch (InputMismatchException e) {
             System.out.println("Entrada inválida. Por favor, digite um número inteiro.");
-        } finally {
-            scanner.close();
         }
     }
 }

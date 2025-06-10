@@ -31,8 +31,6 @@ public class MainExercicio1_4 {
             }
         } catch (InputMismatchException e) {
             System.out.println("Entrada inválida. Por favor, digite um número.");
-        } finally {
-            scanner.close();
         }
     }
 }

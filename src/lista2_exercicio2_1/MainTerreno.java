@@ -27,8 +27,6 @@ public class MainTerreno {
 
         } catch (InputMismatchException e) {
             System.out.println("Entrada inválida. Por favor, digite um número decimal.");
-        } finally {
-            sc.close();
         }
     }
 }

@@ -40,8 +40,6 @@ public class MainExercicio2_1 {
 
         } catch (InputMismatchException e) {
             System.out.println("Entrada inválida. Por favor, digite números inteiros.");
-        } finally {
-            scanner.close();
         }
     }
 }
